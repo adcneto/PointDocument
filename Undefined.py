@@ -1,2 +1,3 @@
 for i in range (1,10):
-    print("noobice")
+    print("noobice ")
+    print("é um saco")
