@@ -18,4 +18,4 @@ async def faq_aws (opsdroid, config, message):
 
 @match_regex(r'(?:aws|amazon web services) (?:erro 34|exit status 34)|(?:erro 34|exit status 34) (?:aws|amazon web services)', case_sensitive=False)
 async def too_many_requisitions (opsdroid, config, message):
-    await message.respond("Relate apenas um problema por vez. Meu neocórtex positrônico é de 32 bit!")
+    await message.respond("Relate apenas um problema por vez, meu bacano. Meu neocórtex positrônico é de 32 bit!")
